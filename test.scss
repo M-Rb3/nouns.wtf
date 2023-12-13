@@ -1,0 +1,21 @@
+.test {
+  display: flex;
+  align-items: center;
+  transition: all 0.125s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  cursor: pointer;
+  border: 1px solid var(--brand-warm-border);
+  border-radius: 10px;
+  padding: 0.3 1.05rem;
+  height: 40px;
+  color: var(--brand-warm-dark-text);
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  &:hover {
+    background-color: var(--brand-warm-accent);
+    color: black;
+    text-decoration: none;
+  }
+}
